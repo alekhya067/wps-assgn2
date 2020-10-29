@@ -1,0 +1,73 @@
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.topnav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+body{
+  background-image: url("https://img.freepik.com/free-vector/pastel-oil-painting-canvas-background_53876-93729.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size:100% ;
+
+    background-attachment: scroll;
+    background-position: right;
+    
+
+} 
+h1{
+   margin-top: 0;
+   padding-top: 50px;
+            text-align: left;
+            color: black;
+            height: 100px;
+            width: 100%;
+            padding-left: 50px;
+            font-size:40px;
+}
+p{
+  padding-left: 50px;
+  padding-top: 40px;
+  font-size: 20px;
+}
+h3{
+  color:black;
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 40px;
+  padding-top: 20px;
+}
+img{
+  float:right;
+  padding-right: 60px; 
+  width:500px;
+  height:300px;
+  top:-3px;
+
+}
